@@ -89,7 +89,7 @@ base_env: &base_env
 apiVersion: v1
 kind: Template
 metadata:
-  name: "system"
+  name: "rhamp"
 message: "Login on https://${TENANT_NAME}-admin.${WILDCARD_DOMAIN} as ${ADMIN_USERNAME}/${ADMIN_PASSWORD}"
 objects:
 
